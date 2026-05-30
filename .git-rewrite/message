@@ -1,0 +1,8 @@
+feat: 完成 Java 到 Go 1.23 重构
+
+- 新增完整 Go 项目结构 (backend-go/)
+- 实现客户管理模块 (Handler/Service/Repository)
+- 集成 Gin, GORM, Casbin, JWT
+- 添加配置管理、中间件、响应处理
+- 包含详细重构方案文档 (REFACTORING_PLAN.md)
+- 提供 Makefile 构建脚本和 README 文档
